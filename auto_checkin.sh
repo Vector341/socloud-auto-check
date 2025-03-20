@@ -29,7 +29,7 @@ fi
 echo "Cookies: $COOKIES"
 # Checkin request
 echo "Performing checkin..."
-CHECKIN_RESPONSE=$(curl -s -v "${BASE_URL}/user/checkin" \
+CHECKIN_RESPONSE=$(curl -s "${BASE_URL}/user/checkin" \
     -X 'POST' \
     -H 'accept: application/json, text/javascript, */*; q=0.01' \
     -H 'x-requested-with: XMLHttpRequest' \
