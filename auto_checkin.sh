@@ -35,4 +35,4 @@ CHECKIN_RESPONSE=$(curl -s "${BASE_URL}/user/checkin" \
     -H 'x-requested-with: XMLHttpRequest' \
     -b "$COOKIES")
 
-echo "Checkin response: $CHECKIN_RESPONSE"
+echo -e $CHECKIN_RESPONSE
