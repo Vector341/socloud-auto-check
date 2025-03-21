@@ -41,6 +41,7 @@ curl 'https://socloud.me/auth/login' \
 
 ### 响应
 
+```
 < HTTP/2 200
 < date: Wed, 19 Mar 2025 17:40:46 GMT
 < content-type: text/html; charset=UTF-8
@@ -58,7 +59,7 @@ curl 'https://socloud.me/auth/login' \
 < cf-ray: 922ec1bfc89c1749-SJC
 < alt-svc: h3=":443"; ma=86400
 < server-timing: cfL4;desc="?proto=TCP&rtt=6486&min_rtt=1076&rtt_var=10805&sent=6&recv=9&lost=0&retrans=0&sent_bytes=2910&recv_bytes=1056&delivery_rate=2683966&cwnd=248&unsent_bytes=0&cid=3f2b6cfabb1002bc&ts=771&x=0"
-<
+```
 
 ## 签到
 
